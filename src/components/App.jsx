@@ -1,11 +1,10 @@
 import userData from "../userData.json";
 import Profile from "./Profile/Profile";
-import List from "./List/list";
+import "../index.css";
+
 const App = () => {
   return (
     <div>
-      <List />
-      <h1>User Profile</h1>
       <Profile
         name={userData.username}
         tag={userData.tag}
